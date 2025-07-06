@@ -1,0 +1,15 @@
+id = "grit"
+name = "GritQL"
+description = "GritQL language support"
+version = "0.0.1"
+schema_version = 1
+authors = ["mantou132 <709922234@qq.com>"]
+repository = "https://github.com/mantou132/zed-grit"
+
+[grammars.gritql]
+repository = "https://github.com/mantou132/tree-sitter-gritql"
+rev = "9ffe44d15359476af27f07130807a5ac979e477f"
+
+[grammars.gritqlsnippet]
+repository = "https://github.com/mantou132/tree-sitter-gritqlsnippet"
+rev = "3b37c767f94eec4204e820ccd68caa34c8b807dc"
